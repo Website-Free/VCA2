@@ -45,6 +45,11 @@ start.addEventListener("click", () => {
     guide.style.display = "block";
 });
 
+// Iesire
+exit.addEventListener("click", () => {
+    start.style.display = "block";
+    guide.style.display = "none";
+});
 //timpul 
 let countDown = () => {
 }
